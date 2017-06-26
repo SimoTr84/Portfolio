@@ -5,7 +5,6 @@
 body {
   font-family: 'Anonymous Pro', monospace;
   color: var(--color-primary);
-  /*font-family: 'Inconsolata', monospace;*/
 }
 
 .section {
