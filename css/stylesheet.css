@@ -1,0 +1,61 @@
+:root {
+  --color-primary: #385d7f;
+}
+
+body {
+  font-family: 'Anonymous Pro', monospace;
+  color: var(--color-primary);
+  /*font-family: 'Inconsolata', monospace;*/
+}
+
+.section {
+  border: 2px solid
+  border-radius: 3px;
+  -webkit-box-shadow: 3px 3px 5px 3px rgba(56,93,127,.7);
+  -moz-box-shadow: 3px 3px 5px 3px rgba(56,93,127,.7);
+  box-shadow: 3px 3px 5px 3px rgba(56,93,127,.7);
+  transition: all .2s ease-in-out;
+  padding-top: 40px;
+}
+
+nav {
+  background-color: var(--color-primary);
+  padding-left: 15px;
+}
+
+.project {
+  width: 250px;
+  height: 200px;
+  border: 2px solid
+  border-radius: 3px;
+  -webkit-box-shadow: 3px 3px 5px 3px rgba(56,93,127,.7);
+  -moz-box-shadow: 3px 3px 5px 3px rgba(56,93,127,.7);
+  box-shadow: 3px 3px 5px 3px rgba(56,93,127,.7);
+}
+
+h4:hover {
+  text-decoration: underline;
+}
+.btn {
+  background: var(--color-primary);
+  border-radius: 3px;
+}
+
+.parallax-container {
+  background-size: cover;
+  height: 500px;
+}
+
+.logos {
+  height: 80px;
+  width: 80px;
+  transition: all .2s ease-in-out;
+}
+
+.logos:hover {
+  transform: scale(1.2);
+}
+
+.page-footer {
+  background-color: var(--color-primary);
+}
